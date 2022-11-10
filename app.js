@@ -34,7 +34,7 @@ console.log(client.buttons)
 const functionFolders = fs.readdirSync("./src/functions");
 
 for (const folder of functionFolders) {
-const test = "asewaawndwuiabnduiwa"
+const test = "asewaawndwuiabnduiwa apa aja bebas"
   const functionFiles = fs
     .readdirSync(`./src/functions/${folder}`)
     .filter((file) => file.endsWith(".js"));
